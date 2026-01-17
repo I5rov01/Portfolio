@@ -13,7 +13,7 @@ function Home() {
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
       {/* Content – safe padding, no forced overflow */}
-      <div className="relative z-10 text-center text-white px-6 py-16 sm:py-20 md:py-24 max-w-5xl mx-auto">
+      <div className="relative z-10 text-center text-white px-6 py-16 sm:py-20 md:py-20 max-w-5xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
           Hi, I'm Ivan
         </h1>

@@ -26,7 +26,7 @@ function Contact() {
           href={mailtoLink}
           className="inline-block bg-indigo-600 text-white px-12 py-6 rounded-2xl text-2xl md:text-3xl font-semibold hover:bg-indigo-700 transition shadow-2xl mb-12"
         >
-          Email Me →
+          Email Me
         </a>
 
         {/* LinkedIn & other socials */}
