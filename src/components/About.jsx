@@ -19,7 +19,7 @@ function About() {
 
           <div className="text-lg text-gray-700 leading-relaxed space-y-6 max-w-2xl">
             <p>
-              Hi! I’m Ivan, a UX/UI designer and frontend developer based in Tilburg, Netherlands. I specialize in crafting intuitive, visually engaging, and user-centered digital experiences. From wireframes to pixel-perfect interfaces, I love turning complex ideas into simple, elegant solutions.
+              Hi! I’m Ivan, a UX/UI designer and frontend developer. I specialize in crafting intuitive, visually engaging, and user-centered digital experiences. From wireframes to pixel-perfect interfaces, I love turning complex ideas into simple, elegant solutions.
              </p>
             <p>
               With a strong background in frontend development, I bring designs to life using modern tools and frameworks, ensuring every interaction feels smooth and purposeful. I’m passionate about usability, accessibility, and creating products people genuinely enjoy using.</p>
