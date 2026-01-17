@@ -49,6 +49,9 @@ function Navbar() {
     { path: '/contact', label: 'Contact' },
   ];
 
+  // Replace with your real CV link (PDF or Google Drive direct link)
+  const cvUrl = 'https://lh3.googleusercontent.com/d/1jEN1ya2z3BbAZo40mfXgv4xYAOStuKTS'; 
+
   return (
     <>
       {/* Main navbar bar */}
@@ -84,6 +87,16 @@ function Navbar() {
                   />
                 </Link>
               ))}
+
+              {/* CV Button – styled like your other buttons */}
+              <a
+                href={cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-indigo-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-indigo-700 transition shadow-md"
+              >
+                My CV
+              </a>
             </div>
 
             {/* Hamburger Button */}
@@ -105,7 +118,7 @@ function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile Menu – solid white, strong backdrop */}
+      {/* Mobile Menu */}
       <div
         className={`fixed inset-y-0 right-0 z-50 w-4/5 max-w-sm bg-white shadow-2xl transform transition-all duration-400 ease-in-out md:hidden border-l border-gray-200 ${
           isMenuOpen ? 'translate-x-0 opacity-100 scale-100' : 'translate-x-full opacity-0 scale-95'
@@ -123,7 +136,7 @@ function Navbar() {
             </svg>
           </button>
 
-          {/* Links – bold, high contrast */}
+          {/* Links */}
           <div className="flex flex-col space-y-10 text-center">
             {navItems.map((item) => (
               <Link
@@ -139,6 +152,17 @@ function Navbar() {
                 {item.label}
               </Link>
             ))}
+
+            {/* CV in mobile menu */}
+            <a
+              href={cvUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-2xl md:text-3xl font-bold text-indigo-600 hover:text-indigo-800 transition-all duration-300"
+              onClick={closeMenu}
+            >
+              My CV
+            </a>
           </div>
 
           {/* Footer */}
@@ -148,7 +172,7 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Stronger backdrop */}
+      {/* Backdrop */}
       {isMenuOpen && (
         <div
           className="fixed inset-0 bg-black/80 backdrop-blur-md z-40 md:hidden transition-opacity duration-400"
@@ -156,7 +180,6 @@ function Navbar() {
         />
       )}
 
-      {/* Scroll lock */}
       <ScrollLock />
     </>
   );
