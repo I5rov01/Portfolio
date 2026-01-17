@@ -3,16 +3,16 @@ import React from 'react';
 function Home() {
   return (
     <section
-      className="h-screen w-full relative flex items-end justify-center bg-cover bg-no-repeat overflow-hidden"
+      className="min-h-screen w-full relative flex items-end justify-center bg-cover bg-no-repeat"
       style={{
         backgroundImage: `url('https://lh3.googleusercontent.com/d/1ejUVz0OXcJwDOTp-HZI9KCKWjvNvDzA-')`,
-        backgroundPosition: 'center 45%', 
+        backgroundPosition: 'center 45%', // ← keep your preferred vertical position
       }}
     >
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-      {/* Content – balanced bottom padding */}
+      {/* Content */}
       <div className="relative z-10 text-center text-white px-6 pb-16 sm:pb-20 md:pb-24 lg:pb-32 max-w-5xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
           Hi, I'm Ivan
