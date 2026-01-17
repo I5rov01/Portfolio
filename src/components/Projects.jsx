@@ -33,7 +33,7 @@ const projects = [
     mainImage: "https://lh3.googleusercontent.com/d/1In_oFF-MN_Hllqpcj1HRWE9tWJzM62s-",
     extraImages: [],
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Figma", "Usability Testing"],
-    year: "2025",
+    year: "2024",
   },
   {
     id: 4,
