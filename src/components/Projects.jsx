@@ -33,7 +33,7 @@ const projects = [
     mainImage: "https://lh3.googleusercontent.com/d/1In_oFF-MN_Hllqpcj1HRWE9tWJzM62s-",
     extraImages: [],
     technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Figma", "Usability Testing"],
-    year: "2024",
+    year: "2023 / 2024",
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ const projects = [
     mainImage: "https://lh3.googleusercontent.com/d/1U9bw4Oble29-mevJkJC_0nRW4sEVsIiA",
     extraImages: ["https://lh3.googleusercontent.com/d/1Hn30ofCz5p0TRCGy3Dj-sd04WqywC1zF",],
     technologies: ["HTML", "CSS", "JavaScript", "Waterfall"],
-    year: "2022",
+    year: "2022 / 2023",
   },
 ];
 
