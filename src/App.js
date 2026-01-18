@@ -50,7 +50,7 @@ function Navbar() {
   ];
 
   // Replace with your real CV link (PDF or Google Drive direct link)
-  const cvUrl = 'https://lh3.googleusercontent.com/d/1jEN1ya2z3BbAZo40mfXgv4xYAOStuKTS'; 
+  const cvUrl = 'https://lh3.googleusercontent.com/d/18nyR_SsqqFUoArkKndIkO2P9N_UJAJU3'; 
 
   return (
     <>

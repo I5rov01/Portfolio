@@ -19,14 +19,14 @@ function About() {
 
           <div className="text-lg text-gray-700 leading-relaxed space-y-6 max-w-2xl">
             <p>
-              Hi! I’m Ivan, a UX/UI designer and frontend developer. I specialize in crafting intuitive, visually engaging, and user-centered digital experiences. From wireframes to pixel-perfect interfaces, I love turning complex ideas into simple, elegant solutions.
+              Hi! I’m Ivan, a UX/UI designer and frontend developer. I specialize in crafting intuitive, visually engaging, and user-centered digital experiences. From wireframes to pixel - perfect interfaces, I love turning complex ideas into simple, elegant solutions.
              </p>
             <p>
               With a strong background in frontend development, I bring designs to life using modern tools and frameworks, ensuring every interaction feels smooth and purposeful. I’m passionate about usability, accessibility, and creating products people genuinely enjoy using.</p>
             <p>
-              Beyond the screen, I love working with my hands—building, crafting, and experimenting with physical projects just as much as digital ones. Whether it’s designing interfaces, prototyping ideas, or creating something tangible, I thrive on creativity in all its forms.</p>
+              Beyond the screen, I love working with my hands - building, crafting, and experimenting with physical projects just as much as digital ones. Whether it’s designing interfaces, prototyping ideas, or creating something tangible, I thrive on creativity in all its forms.</p>
               <p>
-             Always open to exciting collaborations—let’s create something meaningful together!</p>
+             Always open to exciting collaborations - let’s create something meaningful together!</p>
              
           </div>
           

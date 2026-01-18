@@ -6,7 +6,7 @@ function Home() {
       className="relative w-full min-h-[100svh] bg-cover bg-no-repeat flex flex-col justify-end"
       style={{
         backgroundImage: `url('https://lh3.googleusercontent.com/d/1ejUVz0OXcJwDOTp-HZI9KCKWjvNvDzA-')`,
-        backgroundPosition: 'center 45%', // your preferred crop – adjust if needed
+        backgroundPosition: 'center 51%', // your preferred crop – adjust if needed
       }}
     >
       {/* Dark overlay */}
@@ -18,8 +18,8 @@ function Home() {
           Hi, I'm Ivan
         </h1>
         <p className="text-xl md:text-3xl mb-10 opacity-90 font-light">
-          UX/UI Designer & Front-end Developer<br className="hidden sm:block" />
-          Crafting clean, performant web experiences
+          UX/UI Designer & Front-end Developer <br className="hidden sm:block" />
+           Crafting clean, performant web experiences
         </p>
         <div className="flex flex-col sm:flex-row gap-8 justify-center pb-8 sm:pb-12">
           <a
