@@ -49,15 +49,15 @@ function Navbar() {
     { path: '/contact', label: 'Contact' },
   ];
 
-  // Replace with your real CV link (PDF or Google Drive direct link)
-  const cvUrl = 'https://lh3.googleusercontent.com/d/18nyR_SsqqFUoArkKndIkO2P9N_UJAJU3'; 
+  // FIXED: Google Drive direct download link
+  const cvUrl = 'https://drive.google.com/uc?export=download&id=1Fw2OJA9Ge3hXxdLwEvTXj1NvCpY5VnlE';
 
   return (
     <>
-      {/* Main navbar bar */}
       <nav className="bg-white/95 backdrop-blur-lg shadow-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-20">
+            
             {/* Logo */}
             <Link
               to="/"
@@ -88,18 +88,17 @@ function Navbar() {
                 </Link>
               ))}
 
-              {/* CV Button – styled like your other buttons */}
+              {/* CV Button (DOWNLOAD) */}
               <a
                 href={cvUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+                download
                 className="bg-indigo-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-indigo-700 transition shadow-md"
               >
-                My CV
+                Download CV
               </a>
             </div>
 
-            {/* Hamburger Button */}
+            {/* Hamburger */}
             <button
               className="md:hidden text-gray-900 focus:outline-none"
               onClick={toggleMenu}
@@ -125,7 +124,8 @@ function Navbar() {
         }`}
       >
         <div className="flex flex-col h-full p-8 bg-white">
-          {/* Close button */}
+          
+          {/* Close */}
           <button
             className="self-end text-gray-900 hover:text-indigo-600 mb-12 transition-colors duration-200"
             onClick={closeMenu}
@@ -153,19 +153,17 @@ function Navbar() {
               </Link>
             ))}
 
-            {/* CV in mobile menu */}
+            {/* CV Mobile (DOWNLOAD) */}
             <a
               href={cvUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+              download
               className="text-2xl md:text-3xl font-bold text-indigo-600 hover:text-indigo-800 transition-all duration-300"
               onClick={closeMenu}
             >
-              My CV
+              Download CV
             </a>
           </div>
 
-          {/* Footer */}
           <div className="mt-auto text-center text-gray-600 text-sm pt-12">
             © {new Date().getFullYear()} Ivan Petrov
           </div>
