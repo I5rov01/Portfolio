@@ -27,7 +27,7 @@ const projects = [
     id: 6,
     title: "Reborn Skin Store",
     shortDesc: "E-Commerce/Web & Content creation",
-    fullDesc: "Reborn Skin Store is a Shopify-based web store for cosmetic products.This projects is fully owned by me, including web development and maintenance,content creation, advertisement and marketing management. The web store has a chatbot assistant, products catalog, shopping cart and online gift cards designed by me. All needed E-commerce functionalities are enabled including menu, contact details, user log in function, legal agreements and payment procedure. Advertising of the store consisted of Google ads mainly and this led to 700% increase in the revenues for a period of 2 months.",
+    fullDesc: "Reborn Skin Store is a Shopify-based web store for cosmetic products.This projects is fully owned by me, including web development and maintenance, content creation, advertisement and marketing management. The web store has a chatbot assistant, products catalog, shopping cart and online gift cards designed by me. All needed E-commerce functionalities are enabled including menu, contact details, user log in function, legal agreements and payment procedure. Advertising of the store consisted of Google ads mainly and this led to 700% increase in the revenues for a period of 2 months.",
     mainImage: "https://lh3.googleusercontent.com/d/16MB6g2-OtNkXc4NXVB9Qm3mB0KIkt6QG",
     extraImages: [],
     technologies: ["Research", "Shopify", "Google ads", "Excel", "Instagram", "Figma"],
