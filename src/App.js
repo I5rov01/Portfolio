@@ -50,7 +50,7 @@ function Navbar() {
   ];
 
   // FIXED: Google Drive direct download link
-  const cvUrl = 'https://drive.google.com/uc?export=download&id=1dXy-E_8AQN60Iv-YfGsLLdXeg5wOW8KZ';
+  const cvUrl = 'https://drive.google.com/uc?export=download&id=1vLSgGX6aIy1gytZRf6CFTsuj-fIxY5by';
 
   return (
     <>

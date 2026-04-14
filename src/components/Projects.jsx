@@ -5,10 +5,10 @@ const projects = [
     id: 1,
     title: "Graduation internship (DAF)",
     shortDesc: "User Interface for Autonomous Trucks",
-    fullDesc: "For my graduation project, I collaborated with DAF to design a new user interface for autonomous trucks. Due to the confidential nature of the assignment, I cannot share specific visuals or details. My work included research on autonomous driving, interviews with professional drivers, and user testing to validate the design. The final concept will serve as inspiration for future development and design directions at DAF.",
+    fullDesc: "For my graduation project, I collaborated with DAF to design a new user interface for an In-Vehicle infotainment system for autonomous trucks. After carefully planning my work by deciding on how to approach the assignment and by setting up a realistic timeline, I conducted a detailed preliminary research. This foundational step included interviews with professional drivers, competitor analysis, persona and moodboards creation. This was followed by defining user flows and producing low/high-fidelity wireframes and prototypes. User and A/B testing were performed to validate the design. I had the great opportunity to conduct the user testing on a real truck simulator. Last but not least, the branding standards of the company were incorporated into the product. Due to the confidential nature of the assignment, I cannot share specific visuals or details. ",
     mainImage: "https://lh3.googleusercontent.com/d/12GdBk8jUMQMMWzqwzxgaGwBURMUncMkj", 
     extraImages: [],
-    technologies: ["Figma", "Canva", "Moodboards", "User Testing", "Prototyping"],
+    technologies: [ "Research", "Figma", "Canva", "Moodboards", "User Testing", "Prototyping" , "Branding" ],
     year: "2025",
   },
 
@@ -20,8 +20,18 @@ const projects = [
     fullDesc: "A gamified tier-based referral system. The referral system consists of 2 sides – User side and Admin side. The User side is intended for the clients of Bierens. The user firstly has to log in with their credentials (provided by Bierens). Then, they can see what rewards they can get in their tier within the current season*. The more the user referrs, the better the rewards will be. Current season – Within a period of 1 year (12 months), there are 4 seasons in the referral program – Autumn, Winter, Spring and Summer. Every season the rewards change. The Admin side is for the people from Bierens who are maintaining the referral program. From there they can change the rewards for the different seasons, see how many users are currently part of the referral system, see important metrics which are indicators for the performance of the referral program etc.",
     mainImage: "https://lh3.googleusercontent.com/d/1Xoa1qG0qx5C17fRoX64CCdOqeO4kkKTU",
     extraImages: ["https://lh3.googleusercontent.com/d/1LO4xc3G-1t5BpGrkdLburVrOKMVt77qS","https://lh3.googleusercontent.com/d/1bqDCrgGYbCAC0KsjqQ16vx_tc4l0CkGS","https://lh3.googleusercontent.com/d/1Kj0cjZQc-DX71zPnzExaofI3t01tRQ3q","https://lh3.googleusercontent.com/d/1NGa5k3rj-p7xeWnFymb69rtf3ebSfVcu","https://lh3.googleusercontent.com/d/1Cb4UxBAOfnJh47a4TInz5wGbpwGlE9NI","https://lh3.googleusercontent.com/d/1IouBl2s5yM7w0d0lyh_k9YdT-RusDcep","https://lh3.googleusercontent.com/d/1Pukxt6t2O_tHXbNvvFCMZGxulGgFMTbZ","https://lh3.googleusercontent.com/d/1ALZZyMZP_mlZw86ZDbxtmQHPTdldL3lk","https://lh3.googleusercontent.com/d/1wGfNbUJyKCFcRFqeaKZyq3T56wMAFi-Y","https://lh3.googleusercontent.com/d/16SK3kI5L-nI9Args8QwxmPWZsM4rT9DI","https://lh3.googleusercontent.com/d/1-4sWRQ9DxAg5s96WZwdAekYWrgHIuC0D",],
-    technologies: ["HTML", "CSS", "React", "Figma", "Usability Testing"],
+    technologies: ["Research", "HTML", "CSS", "React", "Figma", "Usability Testing"],
     year: "2024",
+  },
+   {
+    id: 6,
+    title: "Reborn Skin Store",
+    shortDesc: "E-Commerce/Web & Content creation",
+    fullDesc: "Reborn Skin Store is a Shopify-based web store for cosmetic products.This projects is fully owned by me, including web development and maintenance,content creation, advertisement and marketing management. The web store has a chatbot assistant, products catalog, shopping cart and online gift cards designed by me. All needed E-commerce functionalities are enabled including menu, contact details, user log in function, legal agreements and payment procedure. Advertising of the store consisted of Google ads mainly and this led to 700% increase in the revenues for a period of 2 months.",
+    mainImage: "https://lh3.googleusercontent.com/d/16MB6g2-OtNkXc4NXVB9Qm3mB0KIkt6QG",
+    extraImages: [],
+    technologies: ["Research", "Shopify", "Google ads", "Excel", "Instagram", "Figma"],
+    year: "2023 / 2024",
   },
 
   
@@ -29,10 +39,10 @@ const projects = [
     id: 3,
     title: "Research internship (Simptel)",
     shortDesc: "Omnichannel Platform",
-    fullDesc: "During my internship at Simptel, I worked on developing an omnichannel platform. Due to confidentiality, I cannot share detailed visuals or specifics. My role involved conducting thorough research, including user interviews and usability testing, to inform and validate the design. This work contributed to shaping an effective and seamless user experience across multiple channels.",
+    fullDesc: "During my internship at Simptel, I worked on developing an omnichannel platform.  My role involved conducting a thorough research, including user and expert interviews, competitor analysis, persona and customer journey creation. Those were then transferred to low/high-fidelity wireframes and prototypes. Usability and user testing were conducted to validate the design choices and functionalities. The overall workflow for this project followed the Agile/Scrum framework which I find well-structured and efficient. This work contributed to shaping an effective and seamless user experience across multiple channels. Due to confidentiality, I cannot share detailed visuals or specifics.",
     mainImage: "https://lh3.googleusercontent.com/d/1In_oFF-MN_Hllqpcj1HRWE9tWJzM62s-",
     extraImages: [],
-    technologies: ["HTML", "CSS", "React", "Tailwind CSS", "Figma", "Usability Testing"],
+    technologies: ["Research", "HTML", "CSS", "React", "Tailwind CSS", "Figma", "Usability Testing" , "Agile" , "Wireframing"],
     year: "2023 / 2024",
   },
   {
@@ -42,7 +52,7 @@ const projects = [
     fullDesc: "A website that engages users with a series of targeted questions. Based on their responses, the site will recommend the most suitable pet for each individual. These questions will focus on understanding the user’s daily routine and habits, as different animals have varying care requirements. Additionally, the website will provide a map of nearby pet shops, enabling users to visit and adopt the recommended pet once they’ve made their choice.",
     mainImage: "https://lh3.googleusercontent.com/d/1ZCRJFFulvUHpUMcYIWbYKKVxmILBNbV5",
     extraImages: ["https://lh3.googleusercontent.com/d/1Yh6q-o23BX0g2Sfwpo8PQln4cTtFPeZi", "https://lh3.googleusercontent.com/d/1DTOEar8LP0Z12QzLBlEeWteyQHcG1v2-", "https://lh3.googleusercontent.com/d/1MRfhYd7qlzD7_ILV64jJiKCeb_O0CJ4w", "https://lh3.googleusercontent.com/d/1gzEYayqqrWULqNcgCFeyqI8HgP9sZp_H", "https://lh3.googleusercontent.com/d/1zlMo40WmfbaZ6O3xuNkr41XHCHo7r32Z", ],
-    technologies: ["HTML", "CSS", "JavaScript", "DOT Framework", "Double Diamond"],
+    technologies: ["Research", "HTML", "CSS", "JavaScript", "DOT Framework", "Double Diamond"],
     year: "2023",
   },
   {
@@ -52,7 +62,7 @@ const projects = [
     fullDesc: "A one-pager website that briefly explains who Maaike Girardin is.",
     mainImage: "https://lh3.googleusercontent.com/d/1U9bw4Oble29-mevJkJC_0nRW4sEVsIiA",
     extraImages: ["https://lh3.googleusercontent.com/d/1Hn30ofCz5p0TRCGy3Dj-sd04WqywC1zF",],
-    technologies: ["HTML", "CSS", "JavaScript", "Waterfall"],
+    technologies: ["Research", "HTML", "CSS", "JavaScript", "Waterfall"],
     year: "2022 / 2023",
   },
 ];
@@ -170,7 +180,7 @@ function Projects() {
                 <p>{selectedProject.fullDesc}</p>
 
                 <div>
-                  <h4 className="text-xl font-semibold mb-3 text-gray-900">Technologies Used</h4>
+                  <h4 className="text-xl font-semibold mb-3 text-gray-900">Key words</h4>
                   <div className="flex flex-wrap gap-3">
                     {selectedProject.technologies.map((tech) => (
                       <span
