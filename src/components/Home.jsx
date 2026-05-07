@@ -6,6 +6,7 @@ function Home() {
       className="relative w-full min-h-[100svh] bg-cover bg-no-repeat flex flex-col justify-end"
       style={{
         backgroundImage: `url('https://lh3.googleusercontent.com/d/1ejUVz0OXcJwDOTp-HZI9KCKWjvNvDzA-')`,
+        
         backgroundPosition: 'center 51%', // your preferred crop – adjust if needed
       }}
     >
