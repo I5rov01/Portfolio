@@ -49,8 +49,8 @@ function Navbar() {
     { path: '/contact', label: 'Contact' },
   ];
 
-  // FIXED: Google Drive direct download link
-  const cvUrl = 'https://drive.google.com/uc?export=download&id=1SL-LQe4xlMVb80z73JE8xkaWzKSw1VkE';
+  // FIXED: Google Drive direct download link 
+  const cvUrl = 'https://drive.google.com/uc?export=download&id=10M_AbfGxtnCyWWyQ86tG7t_Eaf8up-8a';
   return (
     <>
       <nav className="bg-white/95 backdrop-blur-lg shadow-sm fixed top-0 left-0 right-0 z-50 border-b border-gray-200">
